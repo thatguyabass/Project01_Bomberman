@@ -1,8 +1,6 @@
 Project01_Bomberman
 ===================
 
-First "Final" Project
-
 About
 ===================
 
