@@ -1,0 +1,12 @@
+11
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Large.txt
+../DX2DE/Levels/Custom/Gauntlet.txt

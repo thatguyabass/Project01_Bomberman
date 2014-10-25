@@ -1,0 +1,18 @@
+This project is inspired by Bomberman and was made for the intention of learning C++ and DirectX11. This project is not for sale.
+
+By reading this that means I have finally finished this project without adding another feature or two! This is huge as i would have been done months ago, but would have much less to show for it.
+
+When I Started this project back in December 2013, I had just finished learning C++ from a couple of text books over the months before. I had the drive to make a game in C++ so i looked into Cryengine. 
+After about a week i realized that i had no idea how to start programming using that engine. There were no tutorials or any guides to get me started, but that's when i stumbled upon a DirectX11 tutorial. 
+So within a month had a prototype engine that could generate 2D, 3D, GUI and sound!
+
+With this new engine i decided to try to make a "small" project to help me learn how to code in C++ and also make a game at the same time. During the design period i learn countless new ways to program!
+I learned about callbacks, A* pathfinding, Shaders, how to draw objects on a screen and much much more!
+I loved this project and am sad its over, but am really looking forward to what ever is next.
+
+Thank you for checking this out, it really means the world to me.
+
+Jordan Soch
+
+Contact:
+jlsoch@shaw.ca

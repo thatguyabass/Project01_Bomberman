@@ -1,0 +1,6 @@
+5
+../DX2DE/Levels/Custom/Level06.txt
+../DX2DE/Levels/Custom/Level10.txt
+../DX2DE/Levels/Custom/Small.txt
+../DX2DE/Levels/Custom/Medium.txt
+../DX2DE/Levels/Custom/SNES01.txt
