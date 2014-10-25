@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bomberman", "DX2DE\DX2DE.vcxproj", "{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Final|Win32 = Final|Win32
+		Release with Debug|Win32 = Release with Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Debug|Win32.Build.0 = Debug|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Debug|Win32.Deploy.0 = Debug|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Final|Win32.ActiveCfg = Final|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Final|Win32.Build.0 = Final|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Release with Debug|Win32.ActiveCfg = Release with Debug|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Release with Debug|Win32.Build.0 = Release with Debug|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Release|Win32.ActiveCfg = Release|Win32
+		{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+5
+../DX2DE/Levels/Custom/Level06.txt
+../DX2DE/Levels/Custom/Level07.txt
+../DX2DE/Levels/Custom/Level08.txt
+../DX2DE/Levels/Custom/Level09.txt
+../DX2DE/Levels/Custom/Level10.txt

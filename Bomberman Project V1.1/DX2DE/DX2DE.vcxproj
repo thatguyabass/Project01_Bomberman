@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|Win32">
+      <Configuration>Final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release with Debug|Win32">
+      <Configuration>Release with Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="AutoDropdown.h" />
+    <ClInclude Include="basecamera.h" />
+    <ClInclude Include="base2D.h" />
+    <ClInclude Include="BaseGrid.h" />
+    <ClInclude Include="BaseNode.h" />
+    <ClInclude Include="BlueEye.h" />
+    <ClInclude Include="bomb.h" />
+    <ClInclude Include="bomberman.h" />
+    <ClInclude Include="bombermanAnimation.h" />
+    <ClInclude Include="BundleEditor.h" />
+    <ClInclude Include="BundleSelect.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="collisions.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Connection.h" />
+    <ClInclude Include="Continue.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="d3d.h" />
+    <ClInclude Include="baselevel.h" />
+    <ClInclude Include="Dropdown.h" />
+    <ClInclude Include="EData.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="EditorCamera.h" />
+    <ClInclude Include="EditorGrid.h" />
+    <ClInclude Include="EditorTile.h" />
+    <ClInclude Include="EditorWaypoint.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="GUITestLevel.h" />
+    <ClInclude Include="INIReader.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="LevelBundle.h" />
+    <ClInclude Include="LevelEditorWaypointRender.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="fire.h" />
+    <ClInclude Include="fireManager.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="fps.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LData.h" />
+    <ClInclude Include="LevelEditor.h" />
+    <ClInclude Include="LevelEditorEnemies.h" />
+    <ClInclude Include="LevelEditorEnvironment.h" />
+    <ClInclude Include="LevelInfo.h" />
+    <ClInclude Include="LevelSelect.h" />
+    <ClInclude Include="MadBomb.h" />
+    <ClInclude Include="MadGuy.h" />
+    <ClInclude Include="DynamicDropdown.h" />
+    <ClInclude Include="MenuManager.h" />
+    <ClInclude Include="MenuMenu.h" />
+    <ClInclude Include="MessagePrompt.h" />
+    <ClInclude Include="NewEditor.h" />
+    <ClInclude Include="OldEditor.h" />
+    <ClInclude Include="Pathfinding.h" />
+    <ClInclude Include="Powers.h" />
+    <ClInclude Include="Rabbit.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StartMenu.h" />
+    <ClInclude Include="TextBox.h" />
+    <ClInclude Include="TileType.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="heli.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="LevelData.h" />
+    <ClInclude Include="levelManager.h" />
+    <ClInclude Include="loading.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="orthographiccamera.h" />
+    <ClInclude Include="Seeker.h" />
+    <ClInclude Include="static2D.h" />
+    <ClInclude Include="stats.h" />
+    <ClInclude Include="stringManager.h" />
+    <ClInclude Include="systemclass.h" />
+    <ClInclude Include="text.h" />
+    <ClInclude Include="textureclass.h" />
+    <ClInclude Include="textureshader.h" />
+    <ClInclude Include="tileCharacter.h" />
+    <ClInclude Include="time.h" />
+    <ClInclude Include="Waypoint.h" />
+    <ClInclude Include="yellow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="AutoDropdown.cpp" />
+    <ClCompile Include="basecamera.cpp" />
+    <ClCompile Include="base2D.cpp" />
+    <ClCompile Include="BaseNode.cpp" />
+    <ClCompile Include="BlueEye.cpp" />
+    <ClCompile Include="bomb.cpp" />
+    <ClCompile Include="bomberman.cpp" />
+    <ClCompile Include="bombermanAnimation.cpp" />
+    <ClCompile Include="BundleEditor.cpp" />
+    <ClCompile Include="BundleSelect.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="collisions.cpp" />
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="d3d.cpp" />
+    <ClCompile Include="baselevel.cpp" />
+    <ClCompile Include="Dropdown.cpp" />
+    <ClCompile Include="DynamicDropdown.cpp" />
+    <ClCompile Include="EData.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="EditorCamera.cpp" />
+    <ClCompile Include="EditorGrid.cpp" />
+    <ClCompile Include="EditorTile.cpp" />
+    <ClCompile Include="EditorWaypoint.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="GUITestLevel.cpp" />
+    <ClCompile Include="INIReader.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="LevelBundle.cpp" />
+    <ClCompile Include="LevelData.cpp" />
+    <ClCompile Include="LevelEditorWaypointRender.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="fire.cpp" />
+    <ClCompile Include="fireManager.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="fps.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="LData.cpp" />
+    <ClCompile Include="LevelEditor.cpp" />
+    <ClCompile Include="LevelEditorEnemies.cpp" />
+    <ClCompile Include="LevelEditorEnvironment.cpp" />
+    <ClCompile Include="LevelInfo.cpp" />
+    <ClCompile Include="LevelSelect.cpp" />
+    <ClCompile Include="MadBomb.cpp" />
+    <ClCompile Include="MadGuy.cpp" />
+    <ClCompile Include="MenuManager.cpp" />
+    <ClCompile Include="MenuMenu.cpp" />
+    <ClCompile Include="MessagePrompt.cpp" />
+    <ClCompile Include="NewEditor.cpp" />
+    <ClCompile Include="OldEditor.cpp" />
+    <ClCompile Include="Powers.cpp" />
+    <ClCompile Include="Rabbit.cpp" />
+    <ClCompile Include="StartMenu.cpp" />
+    <ClCompile Include="TextBox.cpp" />
+    <ClCompile Include="TileType.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="heli.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="levelManager.cpp" />
+    <ClCompile Include="loading.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="orthographiccamera.cpp" />
+    <ClCompile Include="Seeker.cpp" />
+    <ClCompile Include="static2D.cpp" />
+    <ClCompile Include="stats.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="systemclass.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="textureclass.cpp" />
+    <ClCompile Include="textureshader.cpp" />
+    <ClCompile Include="tileCharacter.cpp" />
+    <ClCompile Include="time.cpp" />
+    <ClCompile Include="Waypoint.cpp" />
+    <ClCompile Include="yellow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.ps" />
+    <None Include="Shaders\color.vs" />
+    <None Include="Shaders\font.ps" />
+    <None Include="Shaders\font.vs" />
+    <None Include="Shaders\texture.ps" />
+    <None Include="Shaders\texture.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Bomb.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E6A3139-6922-4E3C-9E1A-3D10841CA4B2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DX2DE</RootNamespace>
+    <ProjectName>Bomberman</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>P:\DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>P:\DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>P:\DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>P:\DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>P:\DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>P:\DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>P:\DirectX SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>P:\DirectX SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\DirectX SDK\Lib\x86;Z:\DirectX SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\DirectX SDK\Lib\x86;Z:\DirectX SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\DirectX SDK\Lib\x86;Z:\DirectX SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

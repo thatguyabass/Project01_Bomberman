@@ -1,0 +1,228 @@
+﻿Build started 10/25/2014 2:52:01 PM.
+     1>Project "P:\Bomberman\DX2DE\DX2DE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /doc"Debug\\" /Gd /TP /analyze- /errorReport:prompt Editor.cpp
+         Editor.cpp
+     1>p:\directx sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49449) : see previous definition of 'DXGI_STATUS_OCCLUDED'
+     1>p:\directx sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49458) : see previous definition of 'DXGI_STATUS_CLIPPED'
+     1>p:\directx sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49467) : see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+     1>p:\directx sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49476) : see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+     1>p:\directx sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49485) : see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+     1>p:\directx sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49494) : see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+     1>p:\directx sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49503) : see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+     1>p:\directx sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49518) : see previous definition of 'DXGI_ERROR_INVALID_CALL'
+     1>p:\directx sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49527) : see previous definition of 'DXGI_ERROR_NOT_FOUND'
+     1>p:\directx sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49536) : see previous definition of 'DXGI_ERROR_MORE_DATA'
+     1>p:\directx sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49545) : see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+     1>p:\directx sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49554) : see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+     1>p:\directx sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49563) : see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+     1>p:\directx sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49573) : see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+     1>p:\directx sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49582) : see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+     1>p:\directx sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49592) : see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+     1>p:\directx sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49601) : see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+     1>p:\directx sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49611) : see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+     1>p:\directx sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49620) : see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+     1>p:\directx sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49629) : see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+     1>p:\directx sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49639) : see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+     1>p:\directx sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49648) : see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+     1>p:\directx sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49817) : see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+     1>p:\directx sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49826) : see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+     1>p:\directx sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49836) : see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+     1>p:\directx sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49845) : see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+     1>p:\directx sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49793) : see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+     1>p:\directx sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49802) : see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+     1>p:\bomberman\dx2de\color.h(29): warning C4091: 'static ' : ignored on left of 'Color' when no variable is declared
+     1>p:\bomberman\dx2de\util.h(65): warning C4091: 'static ' : ignored on left of 'Util' when no variable is declared
+     1>p:\bomberman\dx2de\stringmanager.h(104): warning C4091: 'static ' : ignored on left of 'StringManager' when no variable is declared
+     1>p:\bomberman\dx2de\input.h(175): warning C4091: 'static ' : ignored on left of 'Input' when no variable is declared
+     1>p:\bomberman\dx2de\global.h(43): warning C4091: 'static ' : ignored on left of 'Global' when no variable is declared
+     1>p:\bomberman\dx2de\stats.h(63): warning C4091: 'static ' : ignored on left of 'Stats' when no variable is declared
+     1>p:\bomberman\dx2de\editor.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>p:\bomberman\dx2de\editor.cpp(187): warning C4018: '<' : signed/unsigned mismatch
+     1>p:\bomberman\dx2de\editor.cpp(309): warning C4018: '<' : signed/unsigned mismatch
+     1>p:\bomberman\dx2de\editor.cpp(334): warning C4018: '<' : signed/unsigned mismatch
+     1>p:\bomberman\dx2de\editor.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+     1>p:\bomberman\dx2de\basegrid.h(122): warning C4018: '<' : signed/unsigned mismatch
+                 p:\bomberman\dx2de\basegrid.h(106) : while compiling class template member function 'bool BaseGrid<N>::Render(ID3D11DeviceContext *,std::shared_ptr<_Ty>,XMFLOAT4X4 &,XMFLOAT4X4 &,XMFLOAT4X4 &)'
+                 with
+                 [
+                     N=EditorTile,
+                     _Ty=TextureShader
+                 ]
+                 p:\bomberman\dx2de\editorgrid.h(24) : see reference to class template instantiation 'BaseGrid<N>' being compiled
+                 with
+                 [
+                     N=EditorTile
+                 ]
+     1>p:\bomberman\dx2de\basegrid.h(146): warning C4018: '<' : signed/unsigned mismatch
+                 p:\bomberman\dx2de\basegrid.h(131) : while compiling class template member function 'void BaseGrid<N>::Shutdown(void)'
+                 with
+                 [
+                     N=EditorTile
+                 ]
+     1>p:\bomberman\dx2de\pathfinding.h(286): warning C4018: '<' : signed/unsigned mismatch
+                 p:\bomberman\dx2de\pathfinding.h(285) : while compiling class template member function 'void Pathfinding<S,N>::Shutdown(void)'
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 p:\bomberman\dx2de\pathfinding.h(67) : see reference to function template instantiation 'void Pathfinding<S,N>::Shutdown(void)' being compiled
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 p:\bomberman\dx2de\pathfinding.h(66) : while compiling class template member function 'Pathfinding<S,N>::~Pathfinding(void)'
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory0(565) : see reference to function template instantiation 'Pathfinding<S,N>::~Pathfinding(void)' being compiled
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 p:\bomberman\dx2de\pathfinding.h(55) : while compiling class template member function 'Pathfinding<S,N>::Pathfinding(void)'
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 p:\bomberman\dx2de\basegrid.h(198) : see reference to function template instantiation 'Pathfinding<S,N>::Pathfinding(void)' being compiled
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 p:\bomberman\dx2de\basegrid.h(198) : see reference to class template instantiation 'Pathfinding<S,N>' being compiled
+                 with
+                 [
+                     S=Enemy,
+                     N=EditorTile
+                 ]
+                 p:\bomberman\dx2de\basegrid.h(177) : while compiling class template member function 'void BaseGrid<N>::SetPathfinding(ID3D11Device *)'
+                 with
+                 [
+                     N=EditorTile
+                 ]
+     1>p:\bomberman\dx2de\pathfinding.h(289): warning C4018: '<' : signed/unsigned mismatch
+     1>p:\bomberman\dx2de\pathfinding.h(292): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"P:\Bomberman\Debug\Bomberman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"P:\Bomberman\Debug\Bomberman.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"P:\Bomberman\Debug\Bomberman.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\animation.obj
+         Debug\AutoDropdown.obj
+         Debug\basecamera.obj
+         Debug\base2D.obj
+         Debug\BaseNode.obj
+         Debug\BlueEye.obj
+         Debug\bomb.obj
+         Debug\bomberman.obj
+         Debug\bombermanAnimation.obj
+         Debug\BundleEditor.obj
+         Debug\BundleSelect.obj
+         Debug\Button.obj
+         Debug\collisions.obj
+         Debug\Connection.obj
+         Debug\Continue.obj
+         Debug\Cursor.obj
+         Debug\d3d.obj
+         Debug\baselevel.obj
+         Debug\Dropdown.obj
+         Debug\DynamicDropdown.obj
+         Debug\EData.obj
+         Debug\Editor.obj
+         Debug\EditorCamera.obj
+         Debug\EditorGrid.obj
+         Debug\EditorTile.obj
+         Debug\EditorWaypoint.obj
+         Debug\GameMenu.obj
+         Debug\Global.obj
+         Debug\GUITestLevel.obj
+         Debug\INIReader.obj
+         Debug\Input.obj
+         Debug\LevelBundle.obj
+         Debug\LevelData.obj
+         Debug\LevelEditorWaypointRender.obj
+         Debug\Enemy.obj
+         Debug\fire.obj
+         Debug\fireManager.obj
+         Debug\font.obj
+         Debug\fps.obj
+         Debug\Level.obj
+         Debug\LData.obj
+         Debug\LevelEditor.obj
+         Debug\LevelEditorEnemies.obj
+         Debug\LevelEditorEnvironment.obj
+         Debug\LevelInfo.obj
+         Debug\LevelSelect.obj
+         Debug\MadBomb.obj
+         Debug\MadGuy.obj
+         Debug\MenuManager.obj
+         Debug\MenuMenu.obj
+         Debug\MessagePrompt.obj
+         Debug\NewEditor.obj
+         Debug\OldEditor.obj
+         Debug\Powers.obj
+         Debug\Rabbit.obj
+         Debug\StartMenu.obj
+         Debug\TextBox.obj
+         Debug\TileType.obj
+         Debug\Util.obj
+         Debug\heli.obj
+         Debug\HUD.obj
+         Debug\levelManager.obj
+         Debug\loading.obj
+         Debug\MainMenu.obj
+         Debug\Node.obj
+         Debug\orthographiccamera.obj
+         Debug\Seeker.obj
+         Debug\static2D.obj
+         Debug\stats.obj
+         Debug\main.obj
+         Debug\systemclass.obj
+         Debug\text.obj
+         Debug\textureclass.obj
+         Debug\textureshader.obj
+         Debug\tileCharacter.obj
+         Debug\time.obj
+         Debug\Waypoint.obj
+         Debug\yellow.obj
+         DX2DE.vcxproj -> P:\Bomberman\Debug\Bomberman.exe
+       XdcMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\xdcmake.exe /old "Bomberman" /nologo /Fo"P:\Bomberman\Debug\Bomberman.xml" /FsDebug\animation.xdc /FsDebug\AutoDropdown.xdc /FsDebug\basecamera.xdc /FsDebug\base2D.xdc /FsDebug\BaseNode.xdc /FsDebug\BlueEye.xdc /FsDebug\bomb.xdc /FsDebug\bomberman.xdc /FsDebug\bombermanAnimation.xdc /FsDebug\BundleEditor.xdc /FsDebug\BundleSelect.xdc /FsDebug\Button.xdc /FsDebug\collisions.xdc /FsDebug\Connection.xdc /FsDebug\Continue.xdc /FsDebug\Cursor.xdc /FsDebug\d3d.xdc /FsDebug\baselevel.xdc /FsDebug\Dropdown.xdc /FsDebug\DynamicDropdown.xdc /FsDebug\EData.xdc /FsDebug\Editor.xdc /FsDebug\EditorCamera.xdc /FsDebug\EditorGrid.xdc /FsDebug\EditorTile.xdc /FsDebug\EditorWaypoint.xdc /FsDebug\GameMenu.xdc /FsDebug\Global.xdc /FsDebug\GUITestLevel.xdc /FsDebug\INIReader.xdc /FsDebug\Input.xdc /FsDebug\LevelBundle.xdc /FsDebug\LevelData.xdc /FsDebug\LevelEditorWaypointRender.xdc /FsDebug\Enemy.xdc /FsDebug\fire.xdc /FsDebug\fireManager.xdc /FsDebug\font.xdc /FsDebug\fps.xdc /FsDebug\Level.xdc /FsDebug\LData.xdc /FsDebug\LevelEditor.xdc /FsDebug\LevelEditorEnemies.xdc /FsDebug\LevelEditorEnvironment.xdc /FsDebug\LevelInfo.xdc /FsDebug\LevelSelect.xdc /FsDebug\MadBomb.xdc /FsDebug\MadGuy.xdc /FsDebug\MenuManager.xdc /FsDebug\MenuMenu.xdc /FsDebug\MessagePrompt.xdc /FsDebug\NewEditor.xdc /FsDebug\OldEditor.xdc /FsDebug\Powers.xdc /FsDebug\Rabbit.xdc /FsDebug\StartMenu.xdc /FsDebug\TextBox.xdc /FsDebug\TileType.xdc /FsDebug\Util.xdc /FsDebug\heli.xdc /FsDebug\HUD.xdc /FsDebug\levelManager.xdc /FsDebug\loading.xdc /FsDebug\MainMenu.xdc /FsDebug\Node.xdc /FsDebug\orthographiccamera.xdc /FsDebug\Seeker.xdc /FsDebug\static2D.xdc /FsDebug\stats.xdc /FsDebug\main.xdc /FsDebug\systemclass.xdc /FsDebug\text.xdc /FsDebug\textureclass.xdc /FsDebug\textureshader.xdc /FsDebug\tileCharacter.xdc /FsDebug\time.xdc /FsDebug\Waypoint.xdc /FsDebug\yellow.xdc
+     1>Done Building Project "P:\Bomberman\DX2DE\DX2DE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.32

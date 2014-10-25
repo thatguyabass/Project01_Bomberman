@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{9d8caf63-4cc7-42b6-aa0f-03e38032048b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{260a72b6-841d-4d6b-af69-9f95d5fd4ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{ec1ab9bd-da47-47ff-9baf-626ad00e9f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{e248e883-59d0-49de-9cab-5a097f21806c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{28fc2cc7-240c-4f33-ba69-55287358bf67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{9f2a7eed-ff36-4040-9647-9fda69b8f0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collisions">
+      <UniqueIdentifier>{d9e01474-076d-45f2-8122-50f9bd3c0db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D\Animation">
+      <UniqueIdentifier>{51b16188-92e9-424c-9349-013766c74beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Performance">
+      <UniqueIdentifier>{7a75287d-65b2-41c9-8325-25dbe35d03c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D\Bomberman">
+      <UniqueIdentifier>{8613650f-c0d9-4c1e-9efc-f5ca16217622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{d1d8b950-2c16-444c-b2b3-2ff82ee1013f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D\Enemies">
+      <UniqueIdentifier>{53f7da49-d529-4a38-b38d-dc26123d2abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{a4aa13db-09e5-4de8-a4d4-8531708d0aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\HUD">
+      <UniqueIdentifier>{0c497d0b-7cf2-4540-94d3-b7e2f4e184df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Buttons">
+      <UniqueIdentifier>{91777148-a64f-463c-93b3-c67e450749c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Fonts">
+      <UniqueIdentifier>{23c6a092-5894-4f74-9641-dcbdf09b2f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding">
+      <UniqueIdentifier>{2b15b2f7-e27a-45dc-98db-a4c067ee934d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding\Seeker">
+      <UniqueIdentifier>{e52bfbee-0d4b-4f2a-ad22-e1c31c9b5be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding\TileCharacter">
+      <UniqueIdentifier>{a6c61684-7746-4c1f-823d-b1f56fa29541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Dropdowns">
+      <UniqueIdentifier>{6869ca5e-95c7-4586-b59d-6b4e6a20f267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Start Menu">
+      <UniqueIdentifier>{ede95061-65f6-4360-8bd8-672e1c76d361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Start Menu\Start Menu">
+      <UniqueIdentifier>{b924cee9-8b1c-477f-a6c4-2dd5ae4fd46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Levels">
+      <UniqueIdentifier>{d5b64bb1-b6fe-4f6c-8ce5-e964233d3db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Levels\Levels">
+      <UniqueIdentifier>{443563cc-e091-4ae6-b0d7-4822d0c161af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Levels\Main Menu">
+      <UniqueIdentifier>{985e695f-3397-406b-a392-395909b18ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Levels\Test Levels">
+      <UniqueIdentifier>{f86c2663-1a3c-4fe9-8558-223ca5ae481a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Editor">
+      <UniqueIdentifier>{06547c64-13ba-4144-a038-1e5cca657b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Editor\Editor Grid">
+      <UniqueIdentifier>{5a3c9df3-c2ce-46bb-8e3d-9df4ff5261fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Editor\Editor Flow">
+      <UniqueIdentifier>{29c9066d-34ee-4a9a-b48a-fe18fffbd5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Data">
+      <UniqueIdentifier>{7df635c2-ff5d-43ca-89d3-ee0bd879bc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Data\Data">
+      <UniqueIdentifier>{f9e14bfa-7ba0-4189-b48e-9531eb1edd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D\Powers">
+      <UniqueIdentifier>{00c10e96-8b69-4552-a8ee-447001f73e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Bundle">
+      <UniqueIdentifier>{ac892690-240c-4e10-a478-6ab74b792857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level Editor\Editor">
+      <UniqueIdentifier>{aacbc7a1-6745-4ac5-951e-173b579ecf70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Text Box">
+      <UniqueIdentifier>{ae9cc45e-8546-47e2-829c-a09d3e647487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Prompts">
+      <UniqueIdentifier>{14c19d12-efbd-4ba2-b1ce-c178cdb246e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding\Nodes">
+      <UniqueIdentifier>{3da1c74a-c540-43a6-b1a7-570499ef93b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basecamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="orthographiccamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshader.h">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="base2D.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="static2D.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="collisions.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2D\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="bombermanAnimation.h">
+      <Filter>2D\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="fps.h">
+      <Filter>Performance</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>GUI\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman.h">
+      <Filter>2D\Bomberman</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.h">
+      <Filter>2D\Bomberman</Filter>
+    </ClInclude>
+    <ClInclude Include="fire.h">
+      <Filter>2D\Bomberman</Filter>
+    </ClInclude>
+    <ClInclude Include="fireManager.h">
+      <Filter>2D\Bomberman</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="heli.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="yellow.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="stringManager.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="tileCharacter.h">
+      <Filter>Pathfinding\TileCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>GUI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Seeker.h">
+      <Filter>Pathfinding\Seeker</Filter>
+    </ClInclude>
+    <ClInclude Include="Waypoint.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelData.h">
+      <Filter>Levels\Level Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GUI\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Levels\Levels\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>Levels\Levels\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGrid.h">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTile.h">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelInfo.h">
+      <Filter>Levels\Level Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LData.h">
+      <Filter>Levels\Level Data\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EData.h">
+      <Filter>Levels\Level Data\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Levels\Levels\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="TileType.h">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorWaypoint.h">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Levels\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITestLevel.h">
+      <Filter>Levels\Levels\Test Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoDropdown.h">
+      <Filter>GUI\Dropdowns</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="OldEditor.h">
+      <Filter>Levels\Level Editor\Editor Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="NewEditor.h">
+      <Filter>Levels\Level Editor\Editor Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>GUI\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>GUI\Start Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMenu.h">
+      <Filter>GUI\Start Menu\Start Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>GUI\Start Menu\Start Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="baselevel.h">
+      <Filter>Levels\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="levelManager.h">
+      <Filter>Levels\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="MadGuy.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MadBomb.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueEye.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Rabbit.h">
+      <Filter>2D\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelect.h">
+      <Filter>Levels\Levels\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Powers.h">
+      <Filter>2D\Powers</Filter>
+    </ClInclude>
+    <ClInclude Include="Continue.h">
+      <Filter>Levels\Levels\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBundle.h">
+      <Filter>Levels\Level Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="BundleSelect.h">
+      <Filter>Levels\Levels\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditor.h">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorEnemies.h">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorEnvironment.h">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorWaypointRender.h">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="BundleEditor.h">
+      <Filter>Levels\Level Editor\Editor Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Dropdown.h">
+      <Filter>GUI\Dropdowns</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicDropdown.h">
+      <Filter>GUI\Dropdowns</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>GUI\Text Box</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagePrompt.h">
+      <Filter>GUI\Prompts</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>GUI\Start Menu\Start Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseNode.h">
+      <Filter>Pathfinding\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Pathfinding\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGrid.h">
+      <Filter>Levels\Level Data</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="INIReader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basecamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="orthographiccamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshader.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="base2D.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="static2D.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="collisions.cpp">
+      <Filter>Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="bombermanAnimation.cpp">
+      <Filter>2D\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2D\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="fps.cpp">
+      <Filter>Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>GUI\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman.cpp">
+      <Filter>2D\Bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="bomb.cpp">
+      <Filter>2D\Bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="fire.cpp">
+      <Filter>2D\Bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="fireManager.cpp">
+      <Filter>2D\Bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="heli.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="yellow.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="tileCharacter.cpp">
+      <Filter>Pathfinding\TileCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>GUI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Seeker.cpp">
+      <Filter>Pathfinding\Seeker</Filter>
+    </ClCompile>
+    <ClCompile Include="Waypoint.cpp">
+      <Filter>Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GUI\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Levels\Levels\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>Levels\Levels\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGrid.cpp">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTile.cpp">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelInfo.cpp">
+      <Filter>Levels\Level Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LData.cpp">
+      <Filter>Levels\Level Data\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="EData.cpp">
+      <Filter>Levels\Level Data\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Levels\Levels\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="TileType.cpp">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorWaypoint.cpp">
+      <Filter>Levels\Level Editor\Editor Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITestLevel.cpp">
+      <Filter>Levels\Levels\Test Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDropdown.cpp">
+      <Filter>GUI\Dropdowns</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Levels\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="NewEditor.cpp">
+      <Filter>Levels\Level Editor\Editor Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="OldEditor.cpp">
+      <Filter>Levels\Level Editor\Editor Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>GUI\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>GUI\Start Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMenu.cpp">
+      <Filter>GUI\Start Menu\Start Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>GUI\Start Menu\Start Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="baselevel.cpp">
+      <Filter>Levels\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="levelManager.cpp">
+      <Filter>Levels\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueEye.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MadBomb.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MadGuy.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Rabbit.cpp">
+      <Filter>2D\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelect.cpp">
+      <Filter>Levels\Levels\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelData.cpp">
+      <Filter>Levels\Level Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Powers.cpp">
+      <Filter>2D\Powers</Filter>
+    </ClCompile>
+    <ClCompile Include="Continue.cpp">
+      <Filter>Levels\Levels\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBundle.cpp">
+      <Filter>Levels\Level Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="BundleSelect.cpp">
+      <Filter>Levels\Levels\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditor.cpp">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorEnemies.cpp">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorEnvironment.cpp">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorWaypointRender.cpp">
+      <Filter>Levels\Level Editor\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicDropdown.cpp">
+      <Filter>GUI\Dropdowns</Filter>
+    </ClCompile>
+    <ClCompile Include="Dropdown.cpp">
+      <Filter>GUI\Dropdowns</Filter>
+    </ClCompile>
+    <ClCompile Include="BundleEditor.cpp">
+      <Filter>Levels\Level Editor\Editor Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>GUI\Text Box</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagePrompt.cpp">
+      <Filter>GUI\Prompts</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>GUI\Start Menu\Start Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseNode.cpp">
+      <Filter>Pathfinding\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Pathfinding\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="INIReader.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\color.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Shaders</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Bomb.ico">
+      <Filter>Shaders</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
