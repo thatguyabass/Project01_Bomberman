@@ -22,7 +22,7 @@ Jordan Soch
 
 To Compile
 ==================
-You must also Download and install the DirectX SDX and link the additional dependencies and Libraries for the code to complie.
+You must also Download the DirectX SDX and link the additional dependencies and Libraries for the code to complie.
 They an be found here.
 http://www.microsoft.com/en-ca/download/details.aspx?id=6812
 
