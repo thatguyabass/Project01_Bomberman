@@ -20,6 +20,12 @@ Thank you for checking this out, it really means the world to me.
 
 Jordan Soch
 
+To Compile
+==================
+You must also Download and install the DirectX SDX and link the additional dependencies and Libraries for the code to complie.
+They an be found here.
+http://www.microsoft.com/en-ca/download/details.aspx?id=6812
+
 How To
 ===================
 This project is inspired by Bomberman and was made for the intention of learning C++ and DirectX11. This project is not for sale.
